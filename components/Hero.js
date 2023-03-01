@@ -46,7 +46,7 @@ const Hero = () => {
             <div>
                 <div>
                     <h1 style={{ marginBottom: 0, height: "50px" }}>{greetings[index]}</h1>
-                    <h1>{content.tagline}</h1>
+                    <h1 style={{ marginTop: 0}}>{content.tagline}</h1>
                     <p style={{ marginBottom: "2rem" }}>{content.bio}</p>
                     <div>
                         {content && content.handles.map((handle) => {
