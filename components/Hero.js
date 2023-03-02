@@ -50,8 +50,8 @@ const Hero = () => {
                     <p style={{ marginBottom: "2rem" }}>{content.bio}</p>
                     <div>
                         {content && content.handles.map((handle) => {
-                            return <a href={handle.link} key={handle.link} style={{ color: "black", marginRight: "2rem", width: "40px", height: "40px" }}>
-                                <Iconify icon={handle.icon} className="iconify" />
+                            return <a href={handle.link} key={handle.link} className="handle">
+                                <p>{handle.name}</p>
                             </a>
                         })}
                     </div>

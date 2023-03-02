@@ -4,20 +4,23 @@ export const REKLAW_CONTENT = {
     profileImg: reklawPfp,
     name: "reklaw",
     tagline: "I'm reklaw",
-    bio: "I'm a tech generalist, builder, and deep thinker.",
+    bio: "generalist, builder, learner, big ideas.",
     handles: [
         {
             // twitter
+            name: "twitter",
             icon: "mdi:twitter",
             link: "https://twitter.com/0xreklaw"
         },
         {
             // github
+            name: "github",
             icon: "mdi:github",
             link: "https://github.com/0xreklaw"
         },
         {
             // mirror
+            name: "mirror",
             icon: "material-symbols:rss-feed",
             link: "https://mirror.xyz/0xreklaw.eth"
         },

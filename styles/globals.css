@@ -103,6 +103,15 @@ p {
   display: flex;
   flex-direction: row;
 }
+.handle {
+  color: black;
+  width: 100px;
+  height: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-start;
+}
 
 @media only screen and (max-width: 1200px) {
   .container {
@@ -152,6 +161,9 @@ p {
   }
   .display-none-phone {
     display: none;
+  }
+  .handle {
+    justify-content: center;
   }
   p {
     font-size: 14px;
