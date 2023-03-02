@@ -4,7 +4,7 @@ export const REKLAW_CONTENT = {
     profileImg: reklawPfp,
     name: "reklaw",
     tagline: "I'm reklaw",
-    bio: "generalist, builder, learner, big ideas.",
+    bio: "curious, adventurer, builder, learner",
     handles: [
         {
             // twitter
