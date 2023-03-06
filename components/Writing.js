@@ -4,6 +4,12 @@ import Image from "next/image";
 const Writing = () => {
     const articles = [
         {
+            title: "Why Web3",
+            date: "March 3, 2023",
+            link: "https://mirror.xyz/0xreklaw.eth/e8aTPSF1mr3GNcsEn3qkT0tLcph2A4L0Y1QCYuDlTYs",
+            logo: "https://pbs.twimg.com/profile_images/1483877855586963459/VVWXmSVk_400x400.jpg"
+        },
+        {
             title: "Community Economies",
             date: "January 13, 2023",
             link: "https://mirror.xyz/0xreklaw.eth/UYcuB0_aFwT2AUvD5fXqcBnoH-k_ZgYRUQA-y2dvCVo",
